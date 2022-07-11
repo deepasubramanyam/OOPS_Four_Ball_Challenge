@@ -54,8 +54,8 @@ public class Oops_4_ball_challenge extends PApplet {
         PApplet.main("Oops_4_ball_challenge", args);
         
         for(int unit=1;unit<=4;unit++){
-            Oops_4_ball_challenge firstBall = new Oops_4_ball_challenge(0,unit);
-            balls.add(firstBall);
+            Oops_4_ball_challenge ball = new Oops_4_ball_challenge(0,unit);
+            balls.add(ball);
        }
     }
 
